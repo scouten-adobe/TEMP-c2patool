@@ -1,7 +1,7 @@
 name: Publish release
 
 on:
-  push: # Temporary while debugging ...
+  push: 
   workflow_dispatch:
 
 jobs:
@@ -77,7 +77,7 @@ jobs:
     - name: Report differences for "prepare (release)" commit
       run: git diff
 
-    - name: Commit cargo.toml and changelog
+    - name: Commit Cargo.toml and changelog
       uses: stefanzweifel/git-auto-commit-action@v4
       id: commit
       with:
