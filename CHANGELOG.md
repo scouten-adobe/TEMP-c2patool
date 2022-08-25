@@ -12,6 +12,16 @@ _25 August 2022_
 * Prepare 0.0.6 release
 * Prepare 0.0.6 release
 * Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
 * adds workflow for publishing binaries
 
 
