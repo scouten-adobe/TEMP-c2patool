@@ -9,6 +9,10 @@ Do not manually edit this file. It will be automatically updated when a new rele
 ## 0.0.6
 _26 August 2022_
 
+
+## 0.0.6
+_26 August 2022_
+
 * Prepare 0.0.6 release
 * Prepare 0.0.6 release
 * Prepare 0.0.6 release
