@@ -75,6 +75,7 @@ jobs:
           commit_message: Prepare ${{ steps.set-version.outputs.version }} release
           commit_user_name: Adobe CAI Team
           commit_user_email: noreply@adobe.com
+  release-crate:
     name: Release c2patool Rust crate
     needs: repo-prep
     runs-on: ubuntu-latest
