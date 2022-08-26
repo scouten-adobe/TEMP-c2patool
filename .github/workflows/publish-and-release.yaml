@@ -77,13 +77,13 @@ jobs:
           commit_user_name: Adobe CAI Team
           commit_user_email: noreply@adobe.com
       - name: Create release
-      uses: ncipollo/release-action@v1
-      with:
-        body: ${{  needs.repo-prep.outputs.changelog-body }}
-        commit: ${{ needs.repo-prep.outputs.commit-hash }}
-        prerelease: true # remove at 1.0
-        tag: ${{  needs.repo-prep.outputs.latest-tag }}
-        token: ${{ secrets.GH_ADMIN_COMMIT_TOKEN }}
+        uses: ncipollo/release-action@v1
+        with:
+          body: ${{  needs.repo-prep.outputs.changelog-body }}
+          commit: ${{ needs.repo-prep.outputs.commit-hash }}
+          prerelease: true # remove at 1.0
+          tag: ${{  needs.repo-prep.outputs.latest-tag }}
+          token: ${{ secrets.GH_ADMIN_COMMIT_TOKEN }}
   release-crate:
     name: Release c2patool Rust crate
     needs: repo-prep
