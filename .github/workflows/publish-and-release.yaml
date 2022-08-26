@@ -57,13 +57,6 @@ jobs:
         env:
           VERSION: ${{ steps.set-version.outputs.version }}
           CHANGELOG: ${{ steps.changelog.outputs.stdout }}
-  release-crate:
-    name: Release c2patool Rust crate
-    needs: repo-prep
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
       - name: Install Rust toolchain
         uses: actions-rs/toolchain@v1
         with:
@@ -72,16 +65,22 @@ jobs:
         run: |
           sed -i "s/^version = \"[^\"]*\"$/version = \"$VERSION\"/;" Cargo.toml
         env:
-          VERSION: ${{ needs.repo-prep.outputs.version }}
+          VERSION: ${{ steps.set-version.outputs.version }}
       - name: Report differences for "prepare (release)" commit
         run: git diff
       - name: Commit Cargo.toml and changelog
         uses: stefanzweifel/git-auto-commit-action@v4
         id: commit
         with:
-          commit_message: Prepare ${{ needs.repo-prep.outputs.version }} release
+          commit_message: Prepare ${{ steps.set-version.outputs.version }} release
           commit_user_name: Adobe CAI Team
           commit_user_email: noreply@adobe.com
+    name: Release c2patool Rust crate
+    needs: repo-prep
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
       - name: Create release
         uses: ncipollo/release-action@v1
         with:
