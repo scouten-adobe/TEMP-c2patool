@@ -6,6 +6,835 @@ This project adheres to [Semantic Versioning](https://semver.org), except that â
 
 Do not manually edit this file. It will be automatically updated when a new release is published.
 
+## 0.0.6
+_26 August 2022_
+
+
+## 0.0.6
+_26 August 2022_
+
+
+## 0.0.6
+_26 August 2022_
+
+
+## 0.0.6
+_26 August 2022_
+
+* Merge branch 'jackfarzan/publish-binaries' of github.com:scouten-adobe/TEMP-c2patool into jackfarzan/publish-binaries
+* Prepare 0.0.6 release
+* f
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Merge branch 'jackfarzan/publish-binaries' of github.com:scouten-adobe/TEMP-c2patool into jackfarzan/publish-binaries
+* Moved steps to repo-prep job
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_26 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Merge branch 'jackfarzan/publish-binaries' of github.com:scouten-adobe/TEMP-c2patool into jackfarzan/publish-binaries
+* Moved steps to repo-prep job
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_26 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Merge branch 'jackfarzan/publish-binaries' of github.com:scouten-adobe/TEMP-c2patool into jackfarzan/publish-binaries
+* Moved steps to repo-prep job
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_26 August 2022_
+
+* Prepare 0.0.6 release
+* Merge branch 'jackfarzan/publish-binaries' of github.com:scouten-adobe/TEMP-c2patool into jackfarzan/publish-binaries
+* Moved steps to repo-prep job
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_26 August 2022_
+
+* Merge branch 'jackfarzan/publish-binaries' of github.com:scouten-adobe/TEMP-c2patool into jackfarzan/publish-binaries
+* Moved steps to repo-prep job
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* Prepare 0.0.6 release
+* adds workflow for publishing binaries
+
+
+## 0.0.6
+_25 August 2022_
+
+* adds workflow for publishing binaries
+
+
 ## 0.0.5
 _12 June 2022_
 
