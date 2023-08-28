@@ -48,7 +48,7 @@ jobs:
 
     - name: Swap in nightly c2pa-rs build
       run: |
-        sed -i "s/^c2pa = { version = \".*\",/c2pa = { git = \"https://github.com/contentauth/c2pa-rs.git\", branch = \"nightly\",/;" Cargo.toml
+        sed -i "s/^c2pa = { version = \".*\",/c2pa = { git = \"https:\\/\\/github.com\\/contentauth\\/c2pa-rs.git\", branch = \"nightly\",/;" Cargo.toml
   
     - name: Install Rust toolchain
       uses: dtolnay/rust-toolchain@stable
