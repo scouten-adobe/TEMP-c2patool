@@ -49,7 +49,7 @@ jobs:
       id: generate-changelog
       run: |
         {
-          echo 'changelog<<<EOF'
+          echo 'changelog<<EOF'
           git log --format="* %s" ${{ steps.get-latest-tag.outputs.tag }}..HEAD | { grep -v "(IGNORE)" || :; }
           echo EOF
         } >> "$GITHUB_OUTPUT"
