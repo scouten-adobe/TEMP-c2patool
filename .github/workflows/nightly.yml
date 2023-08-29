@@ -133,10 +133,11 @@ jobs:
     - name: Cache Rust dependencies
       uses: Swatinem/rust-cache@v2
 
-    - name: Run unit tests
-      run: |
-        cargo check
-        cargo test --all          
+    - name: Run cargo check
+      run: cargo check
+
+    - name: Run cargo test --all
+      run: cargo test --all
 
     - name: Build nightly release artifacts
       run: make release
