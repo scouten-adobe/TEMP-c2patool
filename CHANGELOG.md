@@ -6,6 +6,25 @@ This project adheres to [Semantic Versioning](https://semver.org), except that â
 
 Do not manually edit this file. It will be automatically updated when a new release is published.
 
+## 0.6.2
+_29 August 2023_
+
+* Create a nightly release
+* Capitalize GitHub
+* Remove unnecessary matrix variables
+* Create binary artifacts for supported platforms
+* Helps if you tweak the right regex
+* Try again
+* Auto-build on push to main for now
+* More shell-escaping fun
+* More fun with escaping
+* Fix shell escaping
+* Add nightly build process that depends on nightly c2pa-rs
+* TEMPORARILY disable automation and dependabot
+* Fix issue with docusaurus styling and fix broken links ([#138](https://github.com/contentauth/c2pa-rs/pull/138))
+* Updates to c2pa-rs 0.25.1 ([#128](https://github.com/contentauth/c2pa-rs/pull/128))
+* Fix windows release ([#132](https://github.com/contentauth/c2pa-rs/pull/132))
+
 ## 0.6.1
 _24 July 2023_
 
