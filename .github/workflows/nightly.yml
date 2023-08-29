@@ -1,6 +1,8 @@
 name: Nightly build
 
 on:  
+  push: ## TEMPORARY: while debugging
+    branches: main
   workflow_dispatch:
   schedule:
     - cron: "15 5 * * *" # 0515 UTC every day
