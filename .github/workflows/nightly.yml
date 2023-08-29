@@ -13,6 +13,9 @@ jobs:
     name: Create snapshot
     runs-on: ubuntu-latest
 
+    outputs:
+      new-tag: ${{ steps.set-nightly-version.outputs.version }}
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
@@ -75,3 +78,55 @@ jobs:
         commit_user_name: Adobe CAI Team
         commit_user_email: noreply@adobe.com
         create_branch: true
+
+  publish-nightly-binaries:
+    name: Publish c2patool nightly binaries
+    runs-on: ${{ matrix.os }}
+    needs: nightly-snapshot
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, ubuntu-latest, windows-latest]
+        rust_version: [stable]
+        experimental: [false]
+        include:
+        - os: macos-latest
+          artifact_name: c2patool_mac_universal.zip
+        - os: ubuntu-latest
+          artifact_name: c2patool_linux_intel.tar.gz
+        - os: windows-latest
+          artifact_name: c2patool_win_intel.zip
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        ref: nightly
+
+    - name: Install Rust toolchain
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: ${{ matrix.rust_version }}
+        components: llvm-tools-preview
+        override: true
+
+    - name: Cache Rust dependencies
+      uses: Swatinem/rust-cache@v1
+
+    - name: Run unit tests
+      run: |
+        cargo check
+        cargo test --all          
+
+    - name: Build nightly release artifacts
+      run: make release
+
+    - name: Upload binary to github
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: target/${{ matrix.artifact_name }}
+        asset_name: ${{ matrix.artifact_name }}
+        tag: ${{ needs.nightly-snapshot.outputs.new-tag }}
+        overwrite: true
