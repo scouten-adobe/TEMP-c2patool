@@ -23,6 +23,14 @@ jobs:
         fetch-depth: 0
         token: ${{ secrets.GH_ADMIN_COMMIT_TOKEN }}
 
+    - name: Get latest existing tag
+      uses: actions-ecosystem/action-get-latest-tag@v1
+        ## NEEDS UPDATE for set-output deprecation.
+        ## See https://github.com/actions-ecosystem/action-get-latest-tag/issues/25.
+      id: get-latest-tag
+      with:
+        semver_only: true
+
     - name: Set new proposed version
       uses: paulhatch/semantic-version@v5.2.1
       id: set-version
@@ -37,13 +45,25 @@ jobs:
       run: |
         echo version=${{ steps.set-version.outputs.version }}-nightly+`date +%F`-`git rev-parse --short HEAD` >> "$GITHUB_OUTPUT"
 
+    - name: Generate changelog since last tag
+      uses: mathiasvr/command-output@v1
+        ## NEEDS UPDATE for set-output deprecation.
+        ## See https://github.com/mathiasvr/command-output/issues/4.
+      id: generate-changelog
+      with:
+        run: git log --format="* %s" ${{ steps.get-latest-tag.outputs.tag }}..HEAD | { grep -v "(IGNORE)" || :; }
+
     - name: Log new version & changelog
       run: |
         echo "Proposed new version: $VERSION"
         echo "Nightly version: $NIGHTLY_VERSION"
+        echo "Latest tag detected: $LATEST_TAG"
+        echo "Changelog: $CHANGELOG"
       env:
         VERSION: ${{ steps.set-version.outputs.version }}
         NIGHTLY_VERSION: ${{ steps.set-nightly-version.outputs.version }}
+        LATEST_TAG: ${{ steps.get-latest-tag.outputs.tag }}
+        CHANGELOG: ${{ steps.generate-changelog.outputs.stdout }}
 
     - name: Bump crate versions
       run: |
@@ -54,6 +74,14 @@ jobs:
     - name: Swap in nightly c2pa-rs build
       run: |
         sed -i "s/^c2pa = { version = \"[^\"]*\",/c2pa = { git = \"https:\\/\\/github.com\\/contentauth\\/c2pa-rs.git\", branch = \"nightly\",/;" Cargo.toml
+  
+    - name: Update changelog
+      run: |
+        (head -8 CHANGELOG.md && echo "## $VERSION" && date "+_%d %B %Y_" && echo "" && (echo "$CHANGELOG" | sed -E 's_\(#([0-9]+)\)_([#\1](https://github.com/contentauth/c2pa-rs/pull/\1)\)_') && tail -n +9 CHANGELOG.md) > CHANGELOG.new.md
+        mv CHANGELOG.new.md CHANGELOG.md
+      env:
+        VERSION: ${{ steps.set-version.outputs.version }}
+        CHANGELOG: ${{ steps.generate-changelog.outputs.stdout }}
   
     - name: Install Rust toolchain
       uses: dtolnay/rust-toolchain@stable
@@ -68,7 +96,7 @@ jobs:
     - name: Report differences for "prepare (release)" commit
       run: git diff
 
-    - name: Commit Cargo.toml and Cargo.lock
+    - name: Commit Cargo.toml, Cargo.lock, and changelog
       uses: stefanzweifel/git-auto-commit-action@v4
       id: commit
       with:
@@ -79,6 +107,15 @@ jobs:
         commit_user_email: noreply@adobe.com
         create_branch: true
 
+    - name: Create GitHub release
+      uses: ncipollo/release-action@v1
+      with:
+        body: ${{ steps.generate-changelog.outputs.stdout }}
+        commit: ${{ steps.commit.outputs.commit_hash }}
+        prerelease: true # remove at 1.0
+        tag: ${{ steps.set-version.outputs.version_tag }}
+        token: ${{ secrets.GH_ADMIN_COMMIT_TOKEN }}
+  
   publish-nightly-binaries:
     name: Publish c2patool nightly binaries
     runs-on: ${{ matrix.os }}
