@@ -8,11 +8,11 @@ Start by clicking on the [Actions](https://github.com/contentauth/c2patool/actio
 
 In this screen, you'll see a history of recent nightly builds, something like this:
 
-![Nightly build runs](/.github/docs/nightly-builds/nightly-build-runs.png)
+![Nightly build runs](./nightly-build-runs.png)
 
 Click on the build description (for example, "Use v2 of rust-cache" in this list). That will lead to a summary screen similar to the following:
 
-![Nightly build summary](/.github/docs/nightly-builds/nightly-build-summary.png)
+![Nightly build summary](./nightly-build-summary.png)
 
 In the **"Artifacts"** section at the bottom are archives containing the `c2patool` binary and relevant sample files.
 
