@@ -168,7 +168,7 @@ jobs:
       run: make release
 
     - name: Upload binary to GitHub
-      uses: svenstaro/upload-release-action@v1-release
+      uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: target/${{ matrix.artifact_name }}
