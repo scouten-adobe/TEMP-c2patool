@@ -154,11 +154,10 @@ jobs:
     - name: Build nightly release artifacts
       run: make release
 
-    - name: Upload binary to GitHub
-      uses: svenstaro/upload-release-action@v2
+    - name: Upload build as artifact
+      uses: actions/upload-artifact@v3
       with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: target/${{ matrix.artifact_name }}
-        asset_name: ${{ matrix.artifact_name }}
-        tag: ${{ needs.nightly-snapshot.outputs.new-tag }}
-        overwrite: true
+        path: target/${{ matrix.artifact_name }}
+        name: ${{ matrix.artifact_name }}
+        retention-days: 15
+        if-no-files-found: error
