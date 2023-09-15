@@ -1,6 +1,8 @@
 name: Nightly build
 
-on:  
+on:
+  push: # TEMPORARY: Remove before pushing back to main c2patool repo
+    branches: main
   workflow_dispatch:
   schedule:
     - cron: "30 5 * * *" # 0530 UTC every day
